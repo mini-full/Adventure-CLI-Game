@@ -1,9 +1,5 @@
 # Adventure
 
-<center> 3210105636 王开炫
-
-</center>
-
 ## Desciption
 
 **The Story**
