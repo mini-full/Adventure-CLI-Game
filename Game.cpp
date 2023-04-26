@@ -100,7 +100,7 @@ int map_init(vector<vector<Room*> >& game_map, int row, int col){
  * @param game_map 
  */
 void game_init(vector<vector<Room*> >& game_map){
-    system("cls");
+    system("clear");
     welcome();
     int num = 0;
     // a place that can be reached in one step
@@ -317,7 +317,7 @@ void play(){
     game_init(game_map);
     getchar();
     while (1){
-        system("cls");
+        system("clear");
         cout << endl;
         if(check_meeting(game_map, player)) break;
         if (!check_lobby(game_map, player)) break;
